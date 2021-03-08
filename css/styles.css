@@ -28,6 +28,18 @@ body {
     margin-bottom: 20px;
 }
 
+footer {
+    height: 147px;
+    background: #323135;
+    color: #98969c;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    line-height: 147px;
+}
+
 @media screen and (min-width:900px){
     .container {
         width: 800px;
