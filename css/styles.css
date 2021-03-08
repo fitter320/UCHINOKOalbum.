@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #78ffff;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container h1, p {
+    text-align: center;
+}
+
+.container ul {
+    padding: 10px;
+}
+
+.container li {
+    list-style: none;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:900px){
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+  }
