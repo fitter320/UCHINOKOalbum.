@@ -10,8 +10,34 @@ body {
     padding: 0;
 }
 
-.container h1, p {
+header {
+    background: #70D3FF;
+}
+
+header .container {
+    margin: 0 20px;
+    margin: 0 auto;
+}
+
+header h1, h2, p {
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 40px;
+    font-size: 40px;
+    color: #fff;
+}
+
+header h2 {
+    margin-top: 0;
+    color: #fff;
+}
+
+header p {
+    margin: 0;
+    padding-bottom: 15px;
 }
 
 .container ul {
